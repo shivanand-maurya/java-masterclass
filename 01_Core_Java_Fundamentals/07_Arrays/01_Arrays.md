@@ -1,8 +1,3 @@
-Understood. I’ll create a comprehensive, long-form academic-style guide covering everything about arrays in Java. This will include declaration, initialization, 1D/2D/multidimensional arrays, operations like iteration and sorting, passing arrays to methods, using `Arrays` class utilities, differences from `ArrayList`, Java 8+ features like streams, common pitfalls, and best practices.
-
-I’ll ensure that nothing is left out and that all explanations are detailed and learner-friendly. I’ll notify you as soon as it’s ready for review.
-
-
 # Java Arrays: A Comprehensive Tutorial
 
 An **array** in Java is a container object that holds a fixed-size sequence of values of the same type. Arrays allow storing multiple elements contiguously in memory, which enables fast indexed access.  Each array has an integer **index** for each element, starting at 0. For example, an array `arr` of length 4 has valid indices 0, 1, 2, 3. Java arrays are **zero-indexed**, meaning the first element is at index 0 and the last is at index `arr.length - 1`. The total number of elements (`length`) is fixed at creation and cannot be changed thereafter.  This length is stored in the array’s built-in `length` field (a `final` instance variable). For example, `int[] nums = new int[5];` creates an integer array of length 5; its elements default to 0, and `nums.length` is 5. Because arrays are objects on the heap, accessing `arr.length` or `arr[i]` incurs a small overhead, but computing an element’s address is constant-time: internally the JVM computes
