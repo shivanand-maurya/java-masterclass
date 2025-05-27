@@ -1,8 +1,3 @@
-Great. I’ll begin preparing a unified academic-style paper on Java comments, structured to cover all levels—beginner, intermediate, and expert. It will include explanations of single-line, multi-line, and Javadoc comments, demonstrate their usage across different contexts (classes, methods, logic blocks, etc.), and provide real code examples. References to official Java documentation and relevant sources will be included as well.
-
-I'll notify you as soon as it's ready.
-
-
 # Java Comments: A Comprehensive Guide
 
 ## Table of Contents
